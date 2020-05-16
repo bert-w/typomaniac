@@ -1,0 +1,26 @@
+{
+    "name": "bert-w/typomaniac",
+    "description": "Create deliberate spelling mistakes or typos in text.",
+    "keywords": [
+        "spelling",
+        "mistake",
+        "typo",
+        "typos",
+        "random"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BertW\\Typomaniac\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
